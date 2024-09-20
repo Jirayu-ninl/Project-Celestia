@@ -50,7 +50,7 @@ const getProject: GetProject = async ({ slug, locales = 'en' }, isPreview) => {
             clientUrl
             team
             teamUrl
-            appType
+            type
             appTarget
             services
             industry

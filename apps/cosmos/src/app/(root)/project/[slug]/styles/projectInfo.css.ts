@@ -18,7 +18,8 @@ export const _projectInfo = css`
         color: hsl(var(--primary));
       }
       h4,
-      p {
+      p,
+      a {
         text-align: center;
         font-size: 0.75rem /* 12px */;
         line-height: 1rem /* 16px */;
@@ -35,7 +36,8 @@ export const _projectInfo = css`
     @media (min-width: 480px) {
       & > div {
         h4,
-        p {
+        p,
+        a {
           font-size: 1rem /* 16px */;
           line-height: 1.5rem /* 24px */;
         }

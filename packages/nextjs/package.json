@@ -8,13 +8,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@emotion/react": "^11.13.0",
+    "@emotion/react": "^11.13.3",
     "@nexel/prisma": "workspace:*",
-    "@sentry/nextjs": "^8.20.0",
+    "@sentry/nextjs": "^8.30.0",
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "js-cookie": "^3.0.5",
-    "next": "^14.2.5",
+    "next": "^14.2.10",
     "nprogress": "^0.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -24,10 +24,10 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/js-cookie": "^3.0.6",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.5.4",
     "@types/nprogress": "^0.2.3",
-    "@types/react": "^18.3.3",
-    "tailwindcss": "^3.4.7",
-    "typescript": "^5.5.4"
+    "@types/react": "^18.3.5",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
   }
 }

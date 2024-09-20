@@ -2,6 +2,7 @@ export enum TYPE {
   APP = 'APP',
   DESKTOP_APP = 'DESKTOP_APP',
   WEB = 'WEB',
+  WEB_APP = 'WEB_APP',
   PRODUCT = 'PRODUCT',
   MOVIE = 'MOVIE',
   BRANDING = 'BRANDING',

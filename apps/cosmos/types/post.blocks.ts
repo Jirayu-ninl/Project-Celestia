@@ -47,8 +47,28 @@ export type SeparatorBlock = {
   separatorType: `${POST.SEPARATOR}`
 }
 
-export type ReferenceBlock = {
-  blockType: `${POST.BLOCK_TYPE.REFERENCE}`
+export type ButtonBlock = {
+  blockType: `${POST.BLOCK_TYPE.BUTTON}`
+  buttonType: `${POST.BUTTON}`
+  buttonAlign: `${POST.BUTTON_ALIGN}`
+  title: string | null
+  description: string | null
+  buttonItems: ButtonItem[]
+}
+
+export type ButtonItem = {
+  title: string
+  description: string | null
+  icon: `${POST.ICON}` | null
+  url: string
+  target: `${POST.BUTTON_TARGET}`
+}
+
+export type ComfyNodeBlock = {
+  blockType: `${POST.BLOCK_TYPE.COMFY_NODE}`
+  title: string | null
+  description: string | null
+  nodeData: string
 }
 
 export type Block =
@@ -57,4 +77,5 @@ export type Block =
   | QuoteBlock
   | CodeBlock
   | SeparatorBlock
-  | ReferenceBlock
+  | ButtonBlock
+  | ComfyNodeBlock

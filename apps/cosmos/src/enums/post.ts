@@ -17,7 +17,8 @@ export enum BLOCK_TYPE {
   QUOTE = 'QUOTE',
   CODE = 'CODE',
   SEPARATOR = 'SEPARATOR',
-  REFERENCE = 'REFERENCE',
+  BUTTON = 'BUTTON',
+  COMFY_NODE = 'COMFY_NODE',
 }
 
 export enum HEADING_HIERARCHY {
@@ -43,8 +44,11 @@ export enum QUOTE {
 export enum CODE_LANGUAGE {
   HTML = 'html',
   CSS = 'css',
-  TypeScript = 'TypeScript',
+  TypeScript = 'typeScript',
   Rust = 'rust',
+  Python = 'python',
+  CPP = 'cpp',
+  Json = 'json',
 }
 
 export enum SEPARATOR {
@@ -52,4 +56,27 @@ export enum SEPARATOR {
   LINE_SM = 'LINE_SM',
   LINE_XL = 'LINE_XL',
   JUST_PADDING = 'JUST_PADDING',
+}
+
+export enum ICON {
+  FILE = 'FILE',
+  GITHUB = 'GITHUB',
+  IMAGE = 'IMAGE',
+  DOWNLOAD = 'DOWNLOAD',
+  EXTERNAL = 'EXTERNAL',
+}
+
+export enum BUTTON {
+  DEFAULT = 'DEFAULT',
+  SOLID = 'SOLID',
+}
+
+export enum BUTTON_ALIGN {
+  VERTICAL = 'VERTICAL',
+  HORIZONTAL = 'HORIZONTAL',
+}
+
+export enum BUTTON_TARGET {
+  DEFAULT = 'DEFAULT',
+  NEW_TAB = 'NEW_TAB',
 }

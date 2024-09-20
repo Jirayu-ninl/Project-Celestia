@@ -10,12 +10,12 @@ export type ProjectInfo = {
   clientUrl: string | null
   team: string | null
   teamUrl: string | null
-  appType: string | null
+  type: string | null
   appTarget: `${PROJECT.INFO_APP_TARGET}` | null
   services: string | null
   industry: string | null
   location: string | null
-  locationMap: string | null
+  locationMap: { latitude: string; longitude: string } | null
   date: string | null
   releaseDate: string | null
 }

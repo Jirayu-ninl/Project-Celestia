@@ -68,7 +68,7 @@ export const data: Record<DataKey, Data[]> = {
     {
       title: 'ArtNexus Studio',
       description: 'Generative Art AI',
-      href: 'demo-artnexus.nexellab.com',
+      href: 'https://demo-artnexus.nexellab.com',
       imgUrl: 'https://assets.theiceji.com/projects/ArtNexus_Icon_black.png',
     },
     {
@@ -98,12 +98,12 @@ export const data: Record<DataKey, Data[]> = {
     {
       title: 'Discord Glass',
       description: 'Discord Glass Theme',
-      href: '',
+      href: 'https://github.com/Jirayu-ninl/T6i-Discord-Glass-Theme',
     },
     {
       title: 'Dimension Ai',
       description: 'Stable Diffusion WebUI Theme',
-      href: '',
+      href: 'https://github.com/Jirayu-ninl/sd-webui-dimensions-theme',
     },
   ],
   Project: [
@@ -122,17 +122,17 @@ export const data: Record<DataKey, Data[]> = {
     {
       title: 'VitalLink',
       description: 'Health Social',
-      href: '',
+      href: 'project/vital-link',
     },
     {
       title: 'Ciao',
       description: 'Film renting',
-      href: '',
+      href: 'project/ciao',
     },
     {
       title: 'Finance Flow',
       description: 'Expense tracker',
-      href: '',
+      href: 'project/finance-flow',
     },
   ],
 }
